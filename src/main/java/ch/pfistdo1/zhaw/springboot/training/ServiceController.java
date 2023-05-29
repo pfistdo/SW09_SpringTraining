@@ -52,7 +52,7 @@ public class ServiceController {
 
     @GetMapping("/")
     public ModelAndView index() {
-        return new ModelAndView("templates/index.html");
+        return new ModelAndView("index.html");
     }
 
     @GetMapping("/ping")
